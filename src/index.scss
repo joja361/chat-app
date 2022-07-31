@@ -1,0 +1,22 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.login-wrapper {
+  max-width: 300px;
+}
+
+.invalid {
+  position: absolute;
+  z-index: 1000;
+  top: 34px;
+}
+
+.error-message {
+  color: red;
+  min-height: 25px;
+}
+
+.sidebar {
+  width: 20px;
+  height: 100vh;
+  background-color: red($color: #000000);
+}
